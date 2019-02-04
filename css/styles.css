@@ -51,8 +51,24 @@ aside {
 HEADER
 ************/
 /* Your Styles */
+
 h1 {
   font-family: 'AFKlampenborg';
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  letter-spacing: 20px;
+  color: white;
+}
+
+h5 {
+  font-family: 'AFKlampenborg';
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  letter-spacing: 5px;
+  margin-top: -5%;
+  color: white;
 }
 
 /************
@@ -72,6 +88,18 @@ video {
   background: tomato;
 }
 
+/*
+ASIDE
+*/
+
+aside p {
+  display: flex;
+  justify-content: center;
+  font-family: 'AFKlampenborg';
+  color: white;
+  background-color: #48654E;
+}
+
 /************
 ACTORS
 ************/
@@ -81,11 +109,30 @@ main section {
   justify-content: center;
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figcaption {
+  font-family: 'AFKlampenborg';
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
 /************
 FOOTER
 ************/
 footer {
+  font-family: 'AFKlampenborg';
   text-align: center;
+  color: white;
 }
 
 /************
