@@ -1,4 +1,12 @@
 /*
+FONTS
+*/
+@font-face {
+  font-family: 'AFKlampenborg';
+  src: url('assets/fonts/AFKlampenborg.otf') format('otf');
+}
+
+/*
   DIAGNOSTIC STYLING
 */
 body {
@@ -43,7 +51,9 @@ aside {
 HEADER
 ************/
 /* Your Styles */
-
+h1 {
+  font-family: 'AFKlampenborg';
+}
 
 /************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
