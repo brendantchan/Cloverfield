@@ -10,12 +10,10 @@ FONTS
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: black;
 }
 
-* {
-  outline: 1px dotted black;
-}
+
 
 /************
 LAYOUT
@@ -98,6 +96,11 @@ aside p {
   font-family: 'AFKlampenborg';
   color: white;
   background-color: #48654E;
+}
+
+aside a {
+  font-family: 'AFKlampenborg';
+  text-decoration: none;
 }
 
 /************
